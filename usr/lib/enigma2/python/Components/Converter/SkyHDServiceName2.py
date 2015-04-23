@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Extended ServiceName Converter for Enigma2 Dreamboxes (ServiceName2.py)
+# Extended SkyHDServiceName Converter for Enigma2 Dreamboxes (SkyHDServiceName2.py)
 # Coded by vlamo (c) 2011
 #
 # Version: 0.4 (03.06.2011 18:40)
@@ -14,7 +14,7 @@ from enigma import iServiceInformation, iPlayableService, iPlayableServicePtr, e
 from Components.Element import cached
 from Components.config import config
 
-class ServiceName2(Converter, object):
+class SkyHDServiceName2(Converter, object):
 	NAME = 0
 	NUMBER = 1
 	BOUQUET = 2

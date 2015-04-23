@@ -1,5 +1,5 @@
 #
-#  CaidInfo2 - Converter
+#  SkyHDCaidInfo2 - Converter
 #
 #  ver 1.1.3 23/12/2012
 #
@@ -15,7 +15,7 @@ import os
 info = {}
 old_ecm_mtime = None
 
-class CaidInfo2(Poll, Converter, object):
+class SkyHDCaidInfo2(Poll, Converter, object):
 	CAID = 0
 	PID = 1
 	PROV = 2

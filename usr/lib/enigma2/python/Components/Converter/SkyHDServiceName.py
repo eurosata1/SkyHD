@@ -4,7 +4,7 @@ from enigma import iServiceInformation, iPlayableService, iPlayableServicePtr
 from Components.Element import cached
 from ServiceReference import resolveAlternate
 
-class ServiceName(Converter, object):
+class SkyHDServiceName(Converter, object):
 	NAME = 0
 	PROVIDER = 1
 	REFERENCE = 2
