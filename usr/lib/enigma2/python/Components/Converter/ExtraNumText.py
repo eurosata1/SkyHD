@@ -19,7 +19,7 @@ from Components.Converter.Converter import Converter
 from Components.Element import cached
 from time import localtime, strftime
 
-class SkyHDExtraNumText(Converter, object):
+class ExtraNumText(Converter, object):
 	SNRNUM = 0
 	AGCNUM = 1
 	BERNUM = 2
