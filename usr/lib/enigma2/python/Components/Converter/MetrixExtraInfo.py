@@ -13,7 +13,7 @@ def addspace(text):
 		text += "  "
 	return text
 
-class SkyHDMetrixExtraInfo(Poll, Converter, object):
+class MetrixExtraInfo(Poll, Converter, object):
 	def __init__(self, type):
 		Converter.__init__(self, type)
 		Poll.__init__(self)
