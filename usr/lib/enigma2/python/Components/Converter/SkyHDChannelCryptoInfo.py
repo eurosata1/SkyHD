@@ -11,7 +11,7 @@ class SkyHDChannelCryptoInfo(Poll, Converter, object):
 		Poll.__init__(self)
 
 		self.active = False
-		self.visible = config.usage.show_skyhdchannelcryptoinfo.value
+		self.visible = config.usage.show_cryptoinfo.value
 		self.textvalue = ""
 		self.poll_interval = 1000
 		self.poll_enabled = True
@@ -19,7 +19,7 @@ class SkyHDChannelCryptoInfo(Poll, Converter, object):
 		
 	@cached
 	def getText(self):
-		if not config.usage.show_skyhdchannelcryptoinfo.value:
+		if not config.usage.show_cryptoinfo.value:
 			self.visible = False
 			return ''
 		self.visible = True
